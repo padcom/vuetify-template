@@ -1,0 +1,47 @@
+{
+  "name": "@padcom/vuetify-app",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build -w",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "@mdi/font": "7.0.96",
+    "@padcom/eslint-config-vue": "^0.6.0",
+    "@padcom/nano-css-reset": "^0.0.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/tsconfig": "^0.4.0",
+    "@vueuse/core": "^10.4.1",
+    "autoprefixer": "^10.4.15",
+    "typescript": ">= 3.3.0 < 5.2.0",
+    "unplugin-fonts": "^1.1.0",
+    "unplugin-vue-components": "^0.26.0",
+    "roboto-fontface": "*",
+    "vite": "^5.0.11",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-vuetify": "^2.0.1",
+    "vite-svg-loader": "^4.0.0",
+    "vue": "^3.3.4",
+    "vuetify": "^3.4.10"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-vue"
+    ]
+  },
+  "homepage": "https://github.com/padcom/vuetify-template#readme",
+  "bugs": {
+    "url": "https://github.com/padcom/vuetify-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/vuetify-template.git"
+  }
+}
